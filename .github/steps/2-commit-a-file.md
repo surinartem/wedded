@@ -1,43 +1,38 @@
-<!--
-  <<< Author notes: Step 2 >>>
-  Start this step by acknowledging the previous step.
-  Define terms and link to docs.github.com.
--->
+## Шаг 2: Делаем коммит
 
-## Step 2: Commit a file
+Ура, вы создали ветку! :tada:_
 
-_You created a branch! :tada:_
+Теперь можно редактировать проект, сколько угодно, не меняя основную ветку. Итак, ветка есть — пора сделать первый коммит! 
 
-Creating a branch allows you to edit your project without changing the `main` branch. Now that you have a branch, it’s time to create a file and make your first commit!
+**Что такое коммит?**: 
+Коммит — это некоторые изменения в файлах и папках вашего проекта. Коммит существует в ветке. Для получения дополнительной информации см. Документацию «Создание коммитов». 
 
-**What is a commit?**: A _[commit](https://docs.github.com/pull-requests/committing-changes-to-your-project/creating-and-editing-commits/about-commits)_ is a set of changes to the files and folders in your project. A commit exists in a branch. For more information, see "[About commits](https://docs.github.com/en/pull-requests/committing-changes-to-your-project/creating-and-editing-commits/about-commits)".
+### :keyboard: Упражнение: делаем первый коммит 
 
-### :keyboard: Activity: Your first commit
-
-The following steps will guide you through the process of committing a change on GitHub. A commit records changes in renaming, changing content within, creating a new file, and any other changes made to your project. For this exercise, committing a change requires first adding a new file to your new branch.
+Дальше мы пошагово пройдем весь процесс создания коммита на GitVerse. В коммите видны все изменения: смена имени, редактирование контента, создание нового файла и любые другие изменения в проекте. Для этого упражнения нам сначала нужно добавить в ветку новый файл.
 
 > [!NOTE]
-> `.md` is a file extension that creates a Markdown file. You can learn more about Markdown by visiting "[Basic writing and formatting syntax](https://docs.github.com/en/get-started/writing-on-github/getting-started-with-writing-and-formatting-on-github/basic-writing-and-formatting-syntax)" in our docs or by taking the "[Communicating using Markdown](https://github.com/skills/communicate-using-markdown)" Skills course.
+> `.md` .md — это расширение Markdown-файла. Больше узнать о Markdown можно в разделе Документации «Разметка текстовых файлов».
 
-1. On the **< > Code** tab in the header menu of your repository, make sure you're on your new branch `my-first-branch`.
+1. Переходим на вкладку **Код** в верхнем меню репозитория и проверяем, что находимся в ветке `my-first-branch`.
 
-2. Select the **Add file** drop-down and click **Create new file**.
+2. Нажимаем кнопку **Файл** справа и выбираем **Создать файл** из выпадающего списка.
 
-   ![create new file option](/images/create-new-file.png)
+3. В поле **Введите имя файла** указываем название файла:`PROFILE.md`.
 
-3. In the **Name your file...** field, enter `PROFILE.md`.
-
-4. In the **Enter file contents here** area, copy the following content to your file:
+4. В область для ввода текста копируем следующий текст: 
 
    ```
-   Welcome to my GitHub profile!
+   Добро пожаловать на платформу GitVerse!
    ```
 
    ![profile.md file screenshot](/images/my-profile-file.png)
 
-5. Click **Commit changes...** in the upper right corner above the contents box. For commits, you can enter a short commit message that describes what changes you made. This message helps others know what's included in your commit. GitHub offers a simple default message, but let's change it slightly for practice. First, enter `Add PROFILE.md` in the first text-entry field titled "Commit message".
+5. Жмем кнопку **Сохранить** справа. При сохранении коммита можно ввести краткое сообщение и описать, какие изменения вы внесли. Это поможет другим пользователям понять, что входит в коммит. 
+
+GitVerse генерирует такое сообщение автоматически: вы увидите надпись «create PROFILE.md». Давайте скорректируем его и введем «add PROFILE.md». Поле для описание пока заполнять не будем.  
+По умолчанию мы коммитим в текущую ветку. Жмем **Сохранить**
 
    ![screenshot of adding a new file with a commit message](/images/commit-full-screen.png)
 
-6. In this lesson, we'll ignore the other fields and click **Commit changes**.
-7. Wait about 20 seconds then refresh this page (the one you're following instructions from). [GitHub Actions](https://docs.github.com/en/actions) will automatically update to the next step.
+6. Подождите секунд 20, а потом обновите эту страницу (ту, на которой вы читаете инструкции). Раннер отработает и автоматически откроет следующий урок. Вперед!
