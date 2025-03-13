@@ -13,51 +13,34 @@ _Get started using GitHub in less than an hour._
 
 </header>
 
-<!--
-  <<< Author notes: Step 1 >>>
-  Choose 3-5 steps for your course.
-  The first step is always the hardest, so pick something easy!
-  Link to docs.github.com for further explanations.
-  Encourage users to open new tabs for steps!
--->
+## Шаг 1: Создаем ветку
 
-## Step 1: Create a branch
+Привет! Добро пожаловать на платформу GitVerse.  :wave:_
+Первые шаги во вселенной кода — самые важные. Посмотрим, как тут все устроено.
 
-_Welcome to "Introduction to GitHub"! :wave:_
 
-**What is GitHub?**: GitHub is a collaboration platform that uses _[Git](https://docs.github.com/get-started/quickstart/github-glossary#git)_ for versioning. GitHub is a popular place to share and contribute to [open-source](https://docs.github.com/get-started/quickstart/github-glossary#open-source) software.
-<br>:tv: [Video: What is GitHub?](https://www.youtube.com/watch?v=pBy1zgt0XPc)
+**Что такое GitVerse?**: GitVerse — платформа для разработчиков, которая использует Git для управления версиями. Здесь можно создавать открытые и закрытые репозитории, вести совместные проекты, работать вместе с AI-ассистентом GigaCode, а еще — участвовать в жизни open source сообщества. 
 
-**What is a repository?**: A _[repository](https://docs.github.com/get-started/quickstart/github-glossary#repository)_ is a project containing files and folders. A repository tracks versions of files and folders. For more information, see "[About repositories](https://docs.github.com/en/repositories/creating-and-managing-repositories/about-repositories)" from GitHub Docs.
+**Что такое репозиторий?**: Репозиторий — это проект, содержащий файлы и папки. Репозиторий отслеживает их версии и записывает изменения. Подробнее о репозиториях можно узнать в разделе Документации «Репозитории».
+"[Репозитории](https://gitverse.ru/docs/repositories/)"
 
-**What is a branch?**: A _[branch](https://docs.github.com/en/get-started/quickstart/github-glossary#branch)_ is a parallel version of your repository. By default, your repository has one branch named `main` and it is considered to be the definitive branch. Creating additional branches allows you to copy the `main` branch of your repository and safely make any changes without disrupting the main project. Many people use branches to work on specific features without affecting any other parts of the project.
+**Что такое ветка?**: Ветки — параллельные версии вашего репозитория. По умолчанию у репозитория есть одна ветка с именем master, которая считается основной. Создание дополнительных веток позволяет скопировать основную ветку вашего репозитория и безопасно вносить изменения, не нарушая основной проект. Многие используют ветки, чтобы работать над определенными фичами и не затрагивать другие части проекта.
 
-Branches allow you to separate your work from the `main` branch. In other words, everyone's work is safe while you contribute. For more information, see "[About branches](https://docs.github.com/en/pull-requests/collaborating-with-pull-requests/proposing-changes-to-your-work-with-pull-requests/about-branches)".
+В совместных проектах ветки позволяют отделить свою работу от общей командной ветки. Другими словами, если вы вносите изменения в свою ветку и что-то идет не по плану, работа остальных участников остается в безопасности. Все подробности ищите в разделе Документации «Работа с ветками».[Работа с ветками](https://gitverse.ru/docs/branches/)".
 
-**What is a profile README?**: A _[profile README](https://docs.github.com/account-and-profile/setting-up-and-managing-your-github-profile/customizing-your-profile/managing-your-profile-readme)_ is essentially an "About me" section on your GitHub profile where you can share information about yourself with the community on GitHub.com. GitHub shows your profile README at the top of your profile page. For more information, see "[Managing your profile README](https://docs.github.com/en/account-and-profile/setting-up-and-managing-your-github-profile/customizing-your-profile/managing-your-profile-readme)".
+**Что такое README профиля?**: README профиля — это, по сути, раздел «Обо мне» в вашем аккаунте GitVerse. Тут можно делиться информацией о себе с сообществом на GitVerse.ru. GitVerse отображает README профиля в верхней части страницы профиля. Детальную информацию ищите на странице "[README профиля пользователя](https://gitverse.ru/docs/account-and-profile/user-profile/#readme-%D0%BF%D1%80%D0%BE%D1%84%D0%B8%D0%BB%D1%8F-%D0%BF%D0%BE%D0%BB%D1%8C%D0%B7%D0%BE%D0%B2%D0%B0%D1%82%D0%B5%D0%BB%D1%8F)".
 
-![profile-readme-example](/images/profile-readme-example.png)
 
-### :keyboard: Activity: Your first branch
+### :keyboard: Упражнение: создаем первую ветку
 
-1. Open a new browser tab and navigate to your newly made repository. Then, work on the steps in your second tab while you read the instructions in this tab.
-2. Navigate to the **< > Code** tab in the header menu of your repository.
-
-   ![code-tab](/images/code-tab.png)
-
-3. Click on the **main** branch drop-down.
-
-   ![main-branch-dropdown](/images/main-branch-dropdown.png)
-
-4. In the field, name your branch `my-first-branch`. In this case, the name must be `my-first-branch` to trigger the course workflow.
-5. Click **Create branch: my-first-branch** to create your branch.
-
-   ![create-branch-button](/images/create-branch-button.png)
-
-   The branch will automatically switch to the one you have just created.
-   The **main** branch drop-down bar will reflect your new branch and display the new branch name.
-
-6. Wait about 20 seconds then refresh this page (the one you're following instructions from). [GitHub Actions](https://docs.github.com/en/actions) will automatically update to the next step.
+1. Оставляйте эту вкладку браузера открытой — тут будут инструкции. Рядом откройте новую вкладку, зайдите в свой профиль на GitVerse и создайте новый репозиторий. Выполняйте шаги в той вкладке, а порядок шагов читайте в этой.
+2. Перейдите на вкладку  **Код** в верхнем меню своего репозитория.
+3. Ниже найдите выпадающий список с веткой **master**. Нажмите «Посмотреть все». Вы перейдете на страницу со списком веток. Сейчас там находится одна — master. 
+4. Справа, напротив имени ветки, найдите «+». Нажмите, чтобы отвести новую ветку. Введите название новой ветки: my_first_branch. В данном случае имя должно быть именно `my-first-branch`, чтобы активировать раннер курса.
+In the field, name your branch `my-first-branch`. In this case, the name must be `my-first-branch` to trigger the course workflow.
+5. Нажмите **Создать**. Список веток пополнился, ура!
+Выберите в списке ветку my_first_branch и перейдите в нее. Обратите внимание на выпадающий список веток — в нем видно, в какой ветке вы находитесь. Если нажать меню, то можно увидеть и master.
+6. Подождите около 20 секунд, затем обновите страницу с инструкцией (ту, которую сейчас читаете), чтобы перейти к следующему заданию. [GitHub Actions](https://docs.github.com/en/actions) will automatically update to the next step.
 
 <footer>
 
