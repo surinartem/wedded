@@ -1,4 +1,4 @@
-<header>
+   <header>
 
 <!--
   <<< Author notes: Course header >>>
@@ -16,6 +16,9 @@ _Get started using GitHub in less than an hour._
 ## Шаг 2: Делаем коммит
 
 Ура, вы создали ветку! :tada:_
+<img width="1438" height="809" alt="Снимок экрана 2025-08-24 в 21 58 47 1" src="https://github.com/user-attachments/assets/94a2aa6a-8463-4f98-89ff-2c7518204d04" />
+<img width="1043" height="412" alt="цувцв" src="https://github.com/user-attachments/assets/91ae7567-4803-469b-9ba5-524c6c9c7b6a" />
+
 
 Теперь можно редактировать проект, сколько угодно, не меняя основную ветку. Итак, ветка есть — пора сделать первый коммит! 
 
